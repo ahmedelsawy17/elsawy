@@ -1,0 +1,1 @@
+function n(e,a,o){try{const t=new CustomEvent("app:toast",{detail:{type:e,title:a,message:o}});window.dispatchEvent(t)}catch(t){console.warn("toast emit failed",t)}}export{n as default,n as emitToast};
